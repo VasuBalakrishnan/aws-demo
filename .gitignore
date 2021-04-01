@@ -134,3 +134,6 @@ dmypy.json
 .terraform.lock.hcl
 
 *.zip
+.serverless/
+
+node_modules/
