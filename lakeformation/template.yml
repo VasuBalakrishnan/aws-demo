@@ -1,0 +1,21 @@
+AWSTemplateFormatVersion: 2010-09-09
+Description: |
+  
+Parameters:
+  
+Metadata:
+  
+Mappings:
+  
+Conditions:
+  
+Resources:
+  LogicalID:
+    Type: AWS::LakeFormation::Resource
+    Properties:
+      ResourceArn: String #required
+      RoleArn: String
+      UseServiceLinkedRole: Boolean #required
+Transform:
+  
+Outputs:
